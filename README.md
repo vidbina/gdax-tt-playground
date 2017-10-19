@@ -6,6 +6,10 @@ Requirements
  - nodejs >= 7.6.0 (developed against 8.7.0)
  - yarn (developed with 1.2.1)
 
+### Docker
+
+Build the base image using `make docker-base` then subsequently start the shell
+using `docker-shell`.
 
 ### Nix
 
