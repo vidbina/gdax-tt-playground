@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "gdax-trading-toolkit": "^0.1.19"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3"
   }
 }
