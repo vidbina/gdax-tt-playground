@@ -1,5 +1,0 @@
-# GDAX Monkey :monkey:
-
-Requirements
- - nodejs >= 7.6.0 (developed against 8.7.0)
- - yarn

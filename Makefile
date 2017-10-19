@@ -2,4 +2,6 @@ DOCKER=docker
 
 nix-shell:
 	nix-shell \
-		-p nodejs-8_x yarn
+		-I nixpkgs=${HOME}/nixpkgs \
+		-p nodejs-8_x yarn \
+		--command "echo $$PATH; return"
