@@ -3,6 +3,7 @@ FROM node:8.2.0-slim
 RUN apt-get update && apt-get install -y \
     apt-transport-https \
     ca-certificates \
+    git-core \
  && rm -rf /var/lib/apt/lists/*
 
 # SOURCE: https://yarnpkg.com/lang/en/docs/install/
