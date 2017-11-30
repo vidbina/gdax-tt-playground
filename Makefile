@@ -13,9 +13,3 @@ docker-shell:
 		-v "${PWD}:/src" \
 	 ${DOCKER_IMAGE} bash
 	sudo chown -R ${USER}: .
-
-nix-shell:
-	nix-shell \
-		-I nixpkgs=${HOME}/nixpkgs \
-		-p nodejs-8_x yarn \
-		--command "echo $$PATH; return"
